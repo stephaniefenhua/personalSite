@@ -295,21 +295,50 @@ i.fas:hover, i.fab:hover {
   transform: scale(1.1);
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) { /*minimizing web browser*/
   .w3-half {
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 992px) {
+  
   .linkedinpost {
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 900px) {
+  
   .snapwidget-widget {
     width: 50%;
   }
+  
 }
 
+@media only screen and (max-width: 768px) {
+  #googleform {
+    width: 95%;
+  }
+
+  
+  p {
+    margin: 10px; 
+  }
+}
+
+/*
+@media only screen and (max-width: 720px) {
+  .threecol-ig {
+    display: block;
+  }
+  
+  .sixcol-ig {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 721px) {
+  .threecol-ig {
+    display: none;
+  }
+  
+  .sixcol-ig {
+    display: block;
+  }
+}
+*/
