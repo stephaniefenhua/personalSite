@@ -134,6 +134,15 @@ ul {
   transition: 0.3s;
 }
 
+#fv-thumbnail {
+  border-color: var(--blue2);
+}
+
+#fv-thumbnail:hover {
+  border-color: var(--blue3);
+  transition: 0.3s;
+}
+
 #speak-thumbnail {
   border-color: var(--green2);
 }
@@ -225,6 +234,15 @@ i.fas:hover, i.fab:hover {
 
 .aa-links:hover {
   color: var(--purple4);
+}
+
+.fv-links {
+  color: var(--blue3);
+  font-weight: bold;
+}
+
+.fv-links:hover {
+  color: var(--blue4);
 }
 
 .speak-links {
