@@ -58,6 +58,20 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+  .column {
+    flex: 100%;
+  }
+}
+
 .bio {
   margin-left: 3rem;
   margin-right: 3rem;
@@ -102,6 +116,7 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  width: 95%;
 }
 
 .exp-thumbnail {
