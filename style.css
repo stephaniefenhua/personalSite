@@ -78,6 +78,35 @@ p {
   text-align: left;
 }
 
+.location-tag {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+  margin: auto;
+  display: inline-block;
+}
+
+#sf-bay {
+  color: var(--pink4);
+}
+
+#berkeley {
+  color: var(--blue4); 
+}
+
+.location-icon {
+  background-color: white;
+  border-radius: 25px
+}
+
+#sf-bay-icon {
+  color: var(--pink3);
+}
+
+#berkeley-icon {
+  color: var(--blue3)
+}
+
 ul {
   list-style-type: none;
   margin: 0;
