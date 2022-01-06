@@ -135,7 +135,7 @@ ul {
   color: var(--pink4);
 }
 
-
+/* EXPERIENCE */
 .experience-box {
   border-radius: 25px;
   text-align: left;
@@ -256,8 +256,8 @@ i.fas:hover, i.fab:hover {
 
 .pfp:hover {
   /*transform: translate(-0.1em, -0.1em);*/
-  transform: scale(1.1);
-  box-shadow: 5px 5px 20px 5px #FFBBDE;
+  transform: scale(1.05);
+  box-shadow: 5px 5px 30px 5px #FFBBDE;
   transition: 0.3s;
 
 }
@@ -350,9 +350,8 @@ i.fas:hover, i.fab:hover {
 /* Footer height */
 }
 
-#logofooter {
- 
-}
+#logofooter {}
+
 #logofooter:hover {
   transition: 0.3s;
   transform: scale(1.1);
