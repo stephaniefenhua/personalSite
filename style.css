@@ -242,13 +242,13 @@ ul {
 }
 
 .exp-name {
-  margin-top: 1rem;
   text-align: left;
 }
 
 .exp-headline {
   font-style: italic;
   font-weight: bold;
+  margin-top: 0px;
 }
 
 .experience-links {
