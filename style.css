@@ -60,10 +60,15 @@ p {
 
 .row {
   display: flex;
+  align-items: stretch;
 }
 
+.col {
+  flex: 1;
+}
+  
 .column {
-  flex: 50%;
+  flex: 1;
 }
 
 @media only screen and (max-width: 992px) {
@@ -97,7 +102,16 @@ p {
   color: var(--blue4); 
 }
 
+#resume {
+  color: var(--pink4); 
+}
+
 .location-icon {
+  background-color: white;
+  border-radius: 25px
+}
+
+.resume-icon {
   background-color: white;
   border-radius: 25px
 }
@@ -108,6 +122,10 @@ p {
 
 #berkeley-icon {
   color: var(--blue3)
+}
+
+#resume-icon {
+  color: var(--pink3)
 }
 
 ul {
@@ -163,6 +181,25 @@ ul {
   height: auto;
 }
 
+.experience-card {
+  background: #ffffff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 4%);
+  border: 1px solid rgba(0,0,0,.09);
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.experience-thumbnail {
+  object-fit: contain;
+  display: block;
+  width: 100%;
+  min-height: 1px;
+  margin-bottom: 5px;
+}
+
 #sp-thumbnail {
   border-color: var(--pink2);
 }
@@ -205,7 +242,8 @@ ul {
 }
 
 .exp-name {
-  margin: 2px;
+  margin-top: 1rem;
+  text-align: left;
 }
 
 .exp-headline {
@@ -301,13 +339,23 @@ i.fas:hover, i.fab:hover {
   color: var(--green4);
 }
 
+.voya-links {
+  color: var(--green3);
+  font-weight: bold;
+}
+
+.voya-links:hover {
+  color: var(--green4);
+}
+
 #linkedin-link {
-  color: var(--blue3);
+  color: var(--blue4);
 }
 
 #linkedin-link:hover {
   color: var(--blue4);
 }
+
 
 .portfolio {
   color: white;
@@ -317,7 +365,7 @@ i.fas:hover, i.fab:hover {
   border: 5px;
   margin: 5px;
   display: inline-block;
-}
+} 
 
 #googleform {
   background: linear-gradient(var(--purple1) 0%, var(--pink1) 75%);
@@ -333,27 +381,30 @@ i.fas:hover, i.fab:hover {
 }
 
 #page-container {
-  position: relative;
-  min-height: 100vh;
+  position: relative;  
 }
 
 #content-wrap {
   padding-bottom: 10rem;    /* Footer height */
+  margin-bottom: 0;
 }
 
 #footer {
   background-color: white;
   position: absolute;
-  bottom: 0;
   width: 100%;
   height: 10rem;
   display: flex; 
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
+  padding: 10px;
 /* Footer height */
 }
 
-#logofooter {}
+#logofooter {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
 
 #logofooter:hover {
   transition: 0.3s;
