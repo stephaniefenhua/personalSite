@@ -40,11 +40,29 @@ html, body {
 }
 
 section {
+  opacity: 1;
+  transform: translate(0, 20px);
+  transition: all 1.5s;
   margin-bottom: 5em;
 }
 
-div, span {
-  display: inline-block;
+/*
+section.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}*/
+
+#intro {
+  opacity: 1 !important;
+}
+
+a {
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #000000;
+  transition: 0.3s;
 }
 
 h1, h2, h3 {
@@ -149,11 +167,12 @@ ul {
   text-align: center;
   text-decoration: none;
   font-size: 17px;
-  
+  transition: 0.3s;
 }
 
 .navbar a:hover {
   color: var(--pink4);
+  transition: 0.3s;
 }
 
 /* EXPERIENCE */
@@ -190,6 +209,12 @@ ul {
   padding: 15px 20px 15px 20px;
   margin-bottom: 10px;
   width: 100%;
+  transition: 0.3s;
+}
+
+.experience-card:hover {
+  box-shadow: 0 1px 8px rgb(0 0 0 / 15%);
+  transition: 0.3s;
 }
 
 .experience-thumbnail {
@@ -259,6 +284,7 @@ ul {
 i.fas, i.fab {
   color: var(--pink3);
   padding: 2px;
+  transition: 0.3s;
 }
 
 .fa-file {
@@ -293,6 +319,7 @@ i.fas:hover, i.fab:hover {
   margin-right: auto;
   border: 5px solid white;
   background-color: white;
+  transition: 0.3s;
 }
 
 .pfp:hover {
@@ -377,7 +404,8 @@ i.fas:hover, i.fab:hover {
 }
 
 #googleform:hover {
-  border-color: var(--blue1)
+  border-color: var(--blue1);
+  transition: 0.5s;
 }
 
 #page-container {
@@ -404,6 +432,7 @@ i.fas:hover, i.fab:hover {
 #logofooter {
   margin-top: 2rem;
   margin-bottom: 1rem;
+  transition: 0.3s;
 }
 
 #logofooter:hover {
@@ -448,25 +477,3 @@ i.fas:hover, i.fab:hover {
     margin: 10px; 
   }
 }
-
-/*
-@media only screen and (max-width: 720px) {
-  .threecol-ig {
-    display: block;
-  }
-  
-  .sixcol-ig {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 721px) {
-  .threecol-ig {
-    display: none;
-  }
-  
-  .sixcol-ig {
-    display: block;
-  }
-}
-*/
