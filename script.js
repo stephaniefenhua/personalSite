@@ -1,5 +1,21 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+$(document).ready(function(){
+    $("html,body").scrollTop();
+});
 
-// prints "hi" in the browser's dev tools console
-console.log("hi");
+
+$(document).on("scroll", function() {
+  var pageTop = $(document).scrollTop();
+  var pageBottom = pageTop + $(window).height();
+  var tags = $("section");
+
+  for (var i = 0; i < tags.length; i++) {
+    var tag = tags[i];
+
+    if ($(tag).position().top < pageBottom) {
+      $(tag).addClass("visible");
+    } else {
+      $(tag).removeClass("visible");
+    }
+  }
+});
+
