@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Superposition</title>
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet"
+      type="text/css"
+    />
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/old.css" />
+    <link href="css/creative.min.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FYO.png?v=1569987120655"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body onload="myFunction1000()" id="page-top">
+    <div id="loader">
+      <center>
+        <img
+          src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FYO.png?v=1578731939570"
+          class="rotate"
+          width="150"
+          height="150"
+        />
+      </center>
+    </div>
+
+    <div class="animate-bottom" id="everything" style="display:none; ">
+      <a name="top"></a>
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+        id="mainNav"
+      >
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="/">SUPERPOSITION</a>
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  ABOUT
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="story.html">OUR STORY</a>
+                  <a class="dropdown-item" href="team.html">TEAM</a>
+                  <a class="dropdown-item" href="photos.html">PHOTOS</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  PROGRAMS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="chapters.html">CHAPTERS</a>
+                  <a class="dropdown-item" href="hackathon.html">HACKATHON</a>
+                  <!--  <a class="dropdown-item" href="hackathon.html">HACKATHON</a> -->
+                  <a class="dropdown-item" href="conference.html">CONFERENCE</a>
+                  <a class="dropdown-item" href="workshops.html">WORKSHOPS</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  SUPPORT US
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="sponsors.html">SPONSORS</a>
+                  <a class="dropdown-item" href="partners.html">PARTNERS</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- MASTHEAD -->
+      <header class="masthead9" id="headerwork">
+        <div class="container h-100">
+          <div
+            class="row h-100 align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-10 align-self-end">
+              <h1 class="text-lowercase text-white">
+                sponsor us
+              </h1>
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+              <h3 class="text-white-75 font-weight-light mb-5">
+                EMPOWER WOMEN IN STEM
+              </h3>
+              <!--             <button
+              class="button"
+              onclick="location.href='http://www.google.com'"
+            >
+              ATTENDEE
+            </button>
+            <button
+              class="button"
+              onclick="location.href='http://www.google.com'"
+            >
+              MENTOR
+            </button>
+            <button
+              class="button"
+              onclick="location.href='http://www.google.com'"
+            >
+              JUDGE
+            </button>
+            <h3 class="text-white-75 font-weight-light mb-5">
+              Bay Area | February 2020
+            </h3> -->
+              <!--             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+              >ATTENDEE</a
+            >
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+              >MENTOR</a
+            >
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+              >JUDGE</a
+            > -->
+            </div>
+          </div>
+        </div>
+      </header>
+      <br />
+      <br />
+
+      <!-- SPONSORS -->
+      <section>
+        <center>
+          <div class="sponsorhead">
+            <p class="sponsorssubtitle">
+              Interested in sponsoring to empower women in STEM? Contact us at
+              <a href="mailto:info@superposition.tech"
+                >info@superposition.tech</a
+              >!
+            </p>
+            <br />
+            <button
+              class="button"
+              onclick="location.href='https://drive.google.com/file/d/1u1erhxRFezMPYaKMdL8hYSwe_ZUxi_RW/view'"
+            >
+              VIEW SPONSORSHIP PROSPECTUS
+            </button>
+            <br />
+          </div>
+        </center>
+        <!--
+        <center>
+          <center><p id="spv-sponsors" class="sectionheader">SUPERPOSITION V SPONSORS</p></center>
+          <div class="sponsors">
+            
+            <center>
+              <div class="row2">
+                <div class="column2">
+                  <img
+                    class="sponsorsimages"
+                    height="175vw"
+                    width="175vw"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jane_Street_Capital_Logo.svg/1200px-Jane_Street_Capital_Logo.svg.png"
+                  />
+                </div>
+                <div class="column2">
+                  <img
+                    class="sponsorsimages"
+                    height="175vw"
+                    width="175vw"
+                       src = "https://balsamiq.com/assets/company/brandassets/balsamiq-logo-screen.png"
+                  />
+                </div>
+                <div class="column2">
+                  <img
+                    class="sponsorsimages"
+                    height="175vw"
+                    width="175vw"
+                    src="https://www.crimsoneducation.org/static/crimson-logo-dfcd32d95f2878b3a91acb9f22a7e310.svg"
+                  />
+                </div>
+              
+              </div>
+            </center></div> -->
+
+        <center>
+          <p id="spiv-sponsors" class="sectionheader">
+            SUPERPOSITION IV SPONSORS
+          </p>
+        </center>
+        <div class="sponsors">
+          <center>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FHack%2B.png?v=1580856723263"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FLogitech_logo.png?v=1580856732421"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FDapperLabs.png?v=1580856634536"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FBalsamiq.png?v=1580856714144"
+                />
+              </div>
+            </div>
+          </center>
+
+          <center>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FPrudentialLogo.png?v=1585094527982"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FCompoundFinance.png?v=1580856771256"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FCoda.png?v=1580856776167"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FRStudio.png?v=1579580771370"
+                />
+              </div>
+            </div>
+          </center>
+
+          <center>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FMaybelline.png?v=1580856808148"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FRealVNC-Logo_Full-colour-1.png?v=1585093991581"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Fyum.png?v=1580882645880"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Fchabot-logo-02_1200x483.png?v=1580856791332"
+                />
+              </div>
+            </div>
+          </center>
+
+          <center>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FFacebook-Wordmark-Gray.png?v=1585093469852"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  id="biglogo"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Famazon-logo-transparent.png?v=1585092633506"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  id="biglogo"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FAnkerLogo.png?v=1585092642272"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  id="biglogo"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Fdaskeyboard-logo-800.png?v=1585092657458"
+                />
+              </div>
+            </div>
+          </center>
+
+          <center>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="2vw"
+                  width="2vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Fpopsockets%20logo.png?v=1580856815073"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Flogo12.png?v=1575536585894"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Fealogo.png?v=1574230962649"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2FHackathon%20-%20CloudSploit%20logo.png?v=1574054115279"
+                />
+              </div>
+            </div>
+          </center>
+
+          <center>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2F%5BADD%5D%20Figma.png?v=1577954852548"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FMMR_Logo_512x256.png?v=1575262143291"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fgmg.png?v=1577955142271"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fdez.png?v=1575262199620"
+                />
+              </div>
+            </div>
+          </center>
+
+          <center>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fkingstonlogo.png?v=1575536549734"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_12_4810324819.png?v=1575536798383"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/031b1ff8-fc8f-44a3-8955-846482730e3c%2Faops-logo.svg?v=1574230793351"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2F%5BADD%5D%20Roblox.png?v=1577954819385"
+                />
+              </div>
+            </div>
+          </center>
+
+          <div class="row2">
+            <div class="column2">
+              <img
+                class="sponsorsimages"
+                height="175vw"
+                width="175vw"
+                src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2F%5BADD%5D%20PuraVida.png?v=1577954824025"
+              />
+            </div>
+            <div class="column2">
+              <img
+                class="sponsorsimages"
+                height="175vw"
+                width="175vw"
+                src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2Fimageedit_35_2902395736.png?v=1577181104660"
+              />
+            </div>
+            <div class="column2">
+              <img
+                class="sponsorsimages"
+                height="175vw"
+                width="175vw"
+                src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2F%5BADD%5D%20ProductHunt.svg?v=1577954831777"
+              />
+            </div>
+            <div class="column2">
+              <img
+                class="sponsorsimages"
+                height="175vw"
+                width="175vw"
+                id="biglogo"
+                src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2F%5BADD%5D%20HyperX.png?v=1577954842668"
+              />
+            </div>
+          </div>
+
+          <center>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FSketch.png?v=1580856852094"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  id="biglogo"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FSupercell_opt.png?v=1579754273644"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  id="biglogo"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5D%20Bugsee%20(1).png?v=1579754573502"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  id="biglogo"
+                  src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2F%5BADD%5D%20JetBrains.png?v=1577954837016"
+                />
+              </div>
+            </div>
+          </center>
+
+          <center>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Fvoiceflowlogo.png?v=1580856939549"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  height="175vw"
+                  width="175vw"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD-replace%20RStudio%5DYelp%20(1).png?v=1582957955263"
+                />
+              </div>
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  id="biglogo1"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5D%20InterviewCake.png?v=1580856928506"
+                />
+              </div>
+
+              <div class="column2">
+                <img
+                  class="sponsorsimages"
+                  id="biglogo"
+                  src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FBoomset_Dark_Tagline.png?v=1585094745436"
+                />
+              </div>
+              <!--             <div class="column2">
+              <img
+                class="sponsorsimages"
+                   id = "biglogo"
+                src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2F%5BADD%5D%20JetBrains.png?v=1577954837016"
+              />
+            </div> -->
+            </div>
+          </center>
+        </div>
+        <!--</center>-->
+      </section>
+
+      <!-- FOOTER -->
+      <center>
+        <footer class="page-footer">
+          <br />
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text" style="text-align:center;font-family:'Nanum Gothic', sans-serif;">
+                  Social Media
+                </h5>
+                <ul>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.instagram.com/superpositionfc/?hl=en"
+                      target="_blank"
+                      style="text-align:center;"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://twitter.com/superpositionfc"
+                      target="_blank"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.linkedin.com/company/superpositionfc/about/"
+                      target="_blank"
+                      >Linkedln</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="mailto: info@superposition.tech"
+                      target="_blank"
+                      >Email</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.youtube.com/channel/UC_IgoYBxDTQYHCrMHrH-bIQ"
+                      target="_blank"
+                      style="text-align:center; font-family: 'Nanum Gothic', sans-serif;"
+                      >YouTube</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://medium.com/superposition-iv"
+                      target="_blank"
+                      style="text-align:center; font-family: 'Nanum Gothic', sans-serif;"
+                      >Medium</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://linktr.ee/superpositionfc"
+                      target="_blank"
+                      style="text-align:center; font-family: 'Nanum Gothic', sans-serif;"
+                      >Linktree</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col l6 s12">
+                <a href="#top"
+                  ><center>
+                    <img
+                      id="logofooter"
+                      src="https://cdn.glitch.global/531a4046-e239-4378-b2aa-51d9953afd98/SPLOGO.png?v=1649567750718"
+                    /></center
+                ></a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5
+                    class="white-text"
+                    style="  font-family: 'Nanum Gothic', sans-serif;"
+                  >
+                    Past Sites
+                  </h5>
+                <ul>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2019</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2018</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href=" https://superpositionfc.github.io/website/"
+                      target="_blank"
+                      >2017</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="footer-copyright">
+            <div class="container5">
+              Copyright © 2019-2022 Superposition. All rights reserved.
+            </div>
+          </div>
+        </footer>
+      </center>
+
+      <style>
+        body {
+          background-color: #fff;
+        }
+      </style>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="js/creative.min.js"></script>
+      <script src="js/script.js"></script>
+    </div>
+  </body>
+</html>

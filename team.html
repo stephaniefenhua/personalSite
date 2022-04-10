@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Superposition</title>
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet"
+      type="text/css"
+    />
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/old.css" />
+    <link href="css/creative.min.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FYO.png?v=1569987120655"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body onload="myFunction1000()" id="page-top">
+    <div id="loader">
+      <center>
+        <img
+          src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FYO.png?v=1578731939570"
+          class="rotate"
+          width="150"
+          height="150"
+        />
+      </center>
+    </div>
+
+    <div class="animate-bottom" id="everything" style="display: none">
+      <a name="top"></a>
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+        id="mainNav"
+      >
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="/">SUPERPOSITION</a>
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  ABOUT
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="story.html">OUR STORY</a>
+                  <a class="dropdown-item" href="team.html">TEAM</a>
+                  <a class="dropdown-item" href="photos.html">PHOTOS</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  PROGRAMS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="chapters.html">CHAPTERS</a>
+                  <a class="dropdown-item" href="hackathon.html">HACKATHON</a>
+                  <!--  <a class="dropdown-item" href="hackathon.html">HACKATHON</a> -->
+                  <a class="dropdown-item" href="conference.html">CONFERENCE</a>
+                  <a class="dropdown-item" href="workshops.html">WORKSHOPS</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  SUPPORT US
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="sponsors.html">SPONSORS</a>
+                  <a class="dropdown-item" href="partners.html">PARTNERS</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- MASTHEAD -->
+      <header class="masthead13" id="headerwork">
+        <div class="container h-100">
+          <div
+            class="row h-100 align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-10 align-self-end">
+              <h1 class="text-lowercase text-white">superposition team</h1>
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+              <h3
+                class="text-white-75 font-weight-light mb-5"
+                id="locationsub2"
+              >
+                EMPOWERING GENDER MINORITIES TOGETHER
+              </h3>
+
+              <!-- BUTTONS
+              <button
+                class="button"                onclick="location.href='https://bit.ly/sp_team21'"
+                id="home"
+              >
+                APPLY
+              </button>
+              <button
+                class="button"
+                onclick="location.href='https://bit.ly/sp_teaminfo21'"
+                id="home1"
+              >
+                APPLICATION INFO
+              </button>
+              <button
+                class="button"
+                onclick="location.href='https://forms.gle/AiVxu3qtpHiT97LA7'"
+                id="home"
+              >
+                GET REMINDERS
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- TEAM APPLICATION 
+
+      <center>
+        <section
+          id="conference-opportunities"
+          class="d-flex flex-column align-items-center pb-5 pt-0 px-5"
+        >
+          <p class="sectionheader" id="opportunities">JOIN OUR TEAM</p>
+
+          <div class="row">
+            <div class="col-md-4 align-self-center">
+              <h3 class="subheader text-center gradient-text">
+                Team Applications
+              </h3>
+              <a
+                class="button-cta d-block"
+                href="https://bit.ly/sp_team21"
+                target="_blank"
+                >APPLY TODAY</a
+              >
+              <a
+                class="button-cta d-block"
+                href="https://bit.ly/sp_teaminfo21"
+                target="_blank"
+                >EXPLORE OUR ROLES</a
+              >
+            </div>
+            <div class="col-md-8">
+              <p align="left">
+                Empower women in STEM with Superposition! We're flexible,
+                friendly & fully remote. Whether you're a planner, coder,
+                creative – or all 3, we have a role for you!
+              </p>
+              <p align="left">
+                We're recruiting across
+                <b class="emphasis" style="font-weight: 300px"
+                  >Events, Chapters, Mentorship, Design, Tech, People
+                  Operations, Marketing, Podcasts, Writing,</b
+                >
+                and
+                <b class="emphasis" style="font-weight: 300px"
+                  >Video Production</b
+                >.
+              </p>
+              <p align="left">
+                <b class="emphasis" style="font-weight: 300px">Deadline:</b> 8/1
+                11:59 PM PDT
+                <a
+                  style="font-weight: 300px; color:#b5bcff"
+                  href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MWx0YW9kODRvYWE4cGswajFxaDJpYWowZTUgaGFja3BsdXMuaW9fY2xhc3Nyb29tM2FlZDMyYmZAZw&tmsrc=hackplus.io_classroom3aed32bf%40group.calendar.google.com"
+                  target="_blank"
+                  >(Add to Calendar)</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+      </center> -->
+      <!--  FAQS 
+      <section>
+        <div class="faqcolors">
+          <center>
+            <p class="sectionheader" id="faqs">FAQS</p>
+          </center>
+          <center>
+            <div class="faqs">
+              <div class="row">
+                <div class="column">
+                  <button class="accordion">WHO CAN APPLY?</button>
+                  <div class="panel">
+                    <p align="left" class="faqstext">
+                      We're open to high school & college undergraduate students
+                      around the world. Individuals of all genders are welcome
+                      to apply! Chapter leadership members are also welcome to
+                      apply. STEM experience is not required, but you must be
+                      passionate about gender equality in STEM.
+                    </p>
+                  </div>
+
+                  <button class="accordion">
+                    HOW MANY TEAM MEMBERS WILL BE SELECTED?
+                  </button>
+                  <div class="panel">
+                    <p align="left" class="faqstext">
+                      Unless otherwise specified, every role has 1 position
+                      open. For roles accepting multiple individuals, the exact
+                      number is subject to change. Team roles may be added or
+                      removed at the discretion of the Executive Board. Not all
+                      roles may be filled during this round of applications.
+                    </p>
+                  </div>
+
+                  <button class="accordion">
+                    HOW MANY POSITIONS CAN I HOLD?
+                  </button>
+                  <div class="panel">
+                    <p align="left" class="faqstext">
+                      Directors may only serve one role. If you are not a
+                      director, you may hold up to TWO roles on the team, but
+                      one of those teams must be Video Production, Podcasts,
+                      Writing, or Design. All team members are free to
+                      contribute to the Design or Writing teams, even if they do
+                      not have a formal role.
+                    </p>
+                  </div>
+ 
+                
+
+                <div class="column">
+                  <button class="accordion">
+                    CAN I EXPLORE MULTIPLE ROLES ON THE TEAM?
+                  </button>
+                  <div class="panel">
+                    <p align="left" class="faqstext">
+                      Yes! The Superposition team allows for collaborations
+                      where members can try different teams. They will be held
+                      responsible for the duties of both positions. For events
+                      like our annual hackathon, all team members can join
+                      Organizing Committees focused on specific parts of the
+                      event, such as Marketing and Attendee Experience.
+                    </p>
+                  </div>
+
+                  <button class="accordion">
+                    CAN I BE REMOVED FROM THE TEAM?
+                  </button>
+                  <div class="panel">
+                    <p align="left" class="faqstext">
+                      Yes. Strikes are given to team members who miss a deadline
+                      or meeting without notifying their Director 24 hours in
+                      advance. We grant exceptions for emergencies. Three
+                      strikes will result in reconsideration of one’s position
+                      on the team.
+                    </p>
+                  </div>
+
+                  <button class="accordion">
+                    DO I NEED TO MEET ALL OF MY ROLE'S QUALIFICATIONS?
+                  </button>
+                  <div class="panel">
+                    <p align="left" class="faqstext">
+                      Not at all! We included the qualifications to help you
+                      determine which role is the best fit for you. You are not
+                      required to meet all the qualifications, but you are
+                      expected to learn them quickly while on the team.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </center>
+        </div>
+      </section> -->
+
+      <!-- TEAM -->
+      <section>
+        <center>
+          <br />
+          <div id="begin" class="team">
+            <p class="sectionheader" id="about">2020 - 21 TEAM</p>
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FStephSuHeadshot-Sac.jpg?v=1626296228593"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Stephanie Su
+                </h2>
+                <p class="teamdescriptions">Lead Director</p>
+
+                <a
+                  href="https://www.facebook.com/stephanie.su.9634"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/stephanie-su-527437169/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="mailto:stephanie@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(14).png?v=1571125705882"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Athmiha Bhaskaran
+                </h2>
+                <p class="teamdescriptions">Director of Mentorship</p>
+
+                <a
+                  href="https://www.linkedin.com/in/miha-bhaskaran-672b0b19a/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="athmiha@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(11).png?v=1571122618755"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Helena Lowe
+                </h2>
+                <p class="teamdescriptions">Director of Chapters</p>
+
+                <a href="helena@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(7).png?v=1571121304034"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Shamita Gurusu
+                </h2>
+                <p class="teamdescriptions">Director of Operations</p>
+
+                <a
+                  href="https://www.instagram.com/thedisney_darling/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="shamita@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </center>
+
+        <center>
+          <div class="team">
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FIMG_2006%20-%20Mingxin%20Wang.JPG?v=1605396522385"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Mingxin Wang
+                </h2>
+                <p class="teamdescriptions">Director of Finance</p>
+
+                <a href="https://www.instagram.com/mingxinwng/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/mingxinwang/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="mingxin@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2F33214782-FFDD-499C-9B86-D901CB54B431%20-%20Chloe%20Hyun.jpeg?v=1605395565596"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Chloe Hyun
+                </h2>
+                <p class="teamdescriptions">Director of Education</p>
+
+                <a href="instagram.com/chyun_ha" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="http://linkedin.com/in/chloe-hyun" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="chloe@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2Fshreya%20-%20Shreya%20Mani.jpg?v=1605396737109"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Shreya Mani
+                </h2>
+                <p class="teamdescriptions">Director of Education</p>
+
+                <a href="https://www.instagram.com/shreyamani_/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/shreya-mani-257b29143/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="shreya@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FIMG_20201102_222413_483%20-%20Brianna%20Clark.jpg?v=1605395527850"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Brianna Clark
+                </h2>
+                <p class="teamdescriptions">Director of Content Creation</p>
+
+                <a href="instagram.com/briiiann.a" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.facebook.com/brianna.clark.71066"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/brianna-clark-735b331ab"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="brianna@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </center>
+
+        <center>
+          <div class="team">
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FIMG_3445%20-%20Jocelyn%20Tao.jpeg?v=1605396238989"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Jocelyn Tao
+                </h2>
+                <p class="teamdescriptions">Director of Design</p>
+
+                <a href="https://www.instagram.com/jocelynt25/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/jocelyntao/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="jocelyn@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2F24F3CC6F-D8B4-4208-BED9-8FCA37B5AC43%20-%20Joyce%20Tong.jpeg?v=1605396276693"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Joyce Tong
+                </h2>
+                <p class="teamdescriptions">Director of Design</p>
+
+                <a href="instagram.com/_joycetong" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://m.facebook.com/profile.php?ref=bookmarks"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a
+                  href="http://linkedin.com/in/joyce-tong-030168145"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="joyce@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2Fananya%203%20-%20Ananya%20Choudhury.jpg?v=1605395077549"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Ananya Choudhury
+                </h2>
+                <p class="teamdescriptions">Chapters | Expansion Coordinator</p>
+
+                <a href="https://www.instagram.com/ananya.xy/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.facebook.com/ananya.choudhury.2318"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/ananya-choudhury-205a94196/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="ananya@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2F8F61F95D-8376-497C-8011-A64C3C9A574D%20-%20erin%20pan.jpeg?v=1605395994344"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Erin Pan
+                </h2>
+                <p class="teamdescriptions">Chapters | Expansion Coordinator</p>
+                <a href="erin@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </center>
+
+        <center>
+          <div class="team">
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FUntitled%20design%20(1)%20-%20Hannah%20Su.png?v=1605396107080"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Hannah Su
+                </h2>
+                <p class="teamdescriptions">Chapters | Chapter Facilitator</p>
+
+                <a href="https://www.instagram.com/_hannahsu/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.facebook.com/profile.php?id=100014499494065"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a href="https://www.linkedin.com/in/hannah-su/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="hannah@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FIMG_3810%20-%20Kylie%20Szeto.jpg?v=1605396374311"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Kylie Szeto
+                </h2>
+                <p class="teamdescriptions">Chapters | Chapter Facilitator</p>
+
+                <a
+                  href="https://www.instagram.com/kylie.szeto/ "
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="kylie@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2Fheadshot%20(2)%20-%20Ragalina%20Palaka.jpg?v=1605396607042"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Ragalina Palaka
+                </h2>
+                <p class="teamdescriptions">Chapters | Chapter Facilitator</p>
+
+                <a
+                  href="https://www.instagram.com/ragalinapalaka/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/ragalina-palaka/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="ragalina@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2Fheadshot%20-%20Anusha%20Pai.jpg?v=1605395126683"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Anusha Pai
+                </h2>
+                <p class="teamdescriptions">
+                  Mentorship | Mentorship Coordinator
+                </p>
+
+                <a href="https://www.instagram.com/anusha.pie/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.facebook.com/anusha.pai.90834"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/anusha-pai-65596a1a4/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="anusha@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </center>
+
+        <center>
+          <div class="team">
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FE611F31C-4F3C-415B-8DCB-AF06377FF02C%20-%20Zaynah%20Shaikh%20Cropped.jpg?v=1605397371237"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Zaynah Shaikh
+                </h2>
+                <p class="teamdescriptions">
+                  Mentorship | Mentorship Coordinator
+                </p>
+
+                <a
+                  href="https://www.facebook.com/zaynahshaikh.5"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a href="http://linkedin.com/in/zaynahshaikh11" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="zaynah@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2F7446C05A-069F-4DEF-B2C5-12BE1DF288B6%20-%20Ayushi%20Kate.jpeg?v=1605395483872"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Ayushi Kate
+                </h2>
+                <p class="teamdescriptions">
+                  Operations | Operations Coordinator
+                </p>
+
+                <a href="https://instagram.com/ayushi.kate" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="https://linkedin.com/in/ayushi-kate" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="ayushi@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FWebsite%20photo%20-%20Florence%20Zhu.png?v=1605396041330"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Florence Zhu
+                </h2>
+                <p class="teamdescriptions">
+                  Operations | Operations Coordinator
+                </p>
+
+                <a href="https://www.instagram.com/flozhu/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="https://www.facebook.com/florencezhuu/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/florence-zhu-5a67621b6/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="florence@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2Funnamed%20-%20Ja'Lani%20Foster%20Cropped.jpg?v=1605396191979"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Ja'Lani Foster
+                </h2>
+                <p class="teamdescriptions">Operations Coordinator</p>
+
+                <a
+                  href="www.linkedin.com/in/ja-lani-foster-0b0ab61b9"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a
+                  href="jalani@superposition.tech or jalanifoster@gmail.com"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </center>
+
+        <center>
+          <div class="team">
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FF98D1A6D-F3B5-428D-B517-5FC9177C70E6%20-%20Kaylyn%20Phan.jpeg?v=1605396346387"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Kaylyn Phan
+                </h2>
+                <p class="teamdescriptions">
+                  Operations | Operations Coordinator
+                </p>
+
+                <a href="http://www.instagram.com/kaylynphan" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="https://www.facebook.com/kaylyn.phan" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a
+                  href="http://linkedin.com/in/kaylyn-phan-aa10131b3"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="kaylyn@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2Fprofile%20pic%20-%20Mena%20Nasiri.jpg?v=1605396478084"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Mena Nasiri
+                </h2>
+                <p class="teamdescriptions">
+                  Operations | Operations Coordinator
+                </p>
+
+                <a href="https://www.instagram.com/mena_nasiri/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/mena-nasiri-89836b1ba/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="mena@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FIMG_0786%20-%20Yasmine%20Shubber.jpg?v=1605397317359"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Yasmine Shubber
+                </h2>
+                <p class="teamdescriptions">
+                  Operations | Operations Coordinator
+                </p>
+
+                <a
+                  href="https://www.instagram.com/yasmine.shubber/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="yasmine.shubber@yahoo.com" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FImage-2%20-%20Haavia%20Rajakumar.jpg?v=1605396073629"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Haavia Rajakumar
+                </h2>
+                <p class="teamdescriptions">Finance | Grants Manager</p>
+
+                <a href="https://www.instagram.com/haavia.r/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://ca.linkedin.com/in/haavia-rajakumar-2b07bb1b8"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="haavia@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </center>
+
+        <center>
+          <div class="team">
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2Flegit%20pic%20-%20Parmin%20Sedigh.jpg?v=1605396583343"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Parmin Sedigh
+                </h2>
+                <p class="teamdescriptions">
+                  Finance | Sponsorship Coordinator
+                </p>
+
+                <a
+                  href="https://www.linkedin.com/in/parmin-sedigh"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="parminsedigh@gmail.com" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2F75E7ED9F-A6EB-44D8-8F6E-D9540F118F0A%20-%20ashi%20Cropped.png?v=1605395398222"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Asritha Kota
+                </h2>
+                <p class="teamdescriptions">
+                  Public Relations | Community Engagement Manager
+                </p>
+
+                <a href="https://www.instagram.com/ashi.488gtb/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.facebook.com/asritha.kota.501"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a
+                  href="http://linkedin.com/in/asritha-kota-6a3b561b2"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="kota.asritha@gmail.com" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2F9C231D39-EE4B-455D-8068-CBE7E151C7A7_1_201_a%20-%20Deanna%20Wood.jpeg?v=1605395596559"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Deanna Wood
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a
+                  href="https://www.instagram.com/deanna._.wood/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="deanna@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2Frailroad%20portrait%20copy%20-%20Sunny%20Li.JPG?v=1605396802648"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Sunny Li
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a href="sunny@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </center>
+
+        <center>
+          <div class="team">
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FED9C7907-4238-45C2-9D04-94A91C0BC9F8%20-%20Laksha%20Karthikeyan.jpeg?v=1605396410916"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Laksha Karthikeyan
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a href="https://www.instagram.com/_laksha_k/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="laksha@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2F1x1%20(2019)%20-%20Lei%20Jo%20Presaldo.jpg?v=1605396445967"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  LJ Presaldo
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a
+                  href="https://www.linkedin.com/in/leijopresaldo/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="leijopresaldo@gmail.com" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FSophya%20Wu%20Headshot%20-%20Sophya%20Wu.png?v=1605396767879"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Sophya Wu
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a
+                  href="https://www.instagram.com/sophya_10001/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="https://www.linkedin.com/in/sophya-wu/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="sophya@superposition.tech" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FIMG_20200609_154029%20-%20Swathya%20Chauhan.JPG?v=1605396824378"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Swathya Singh Chauhan
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a href="https://www.instagram.com/_swathya/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/swathya-singh-chauhan-3473641b0"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="swathya2604@gmail.com" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </center>
+
+        <center>
+          <div class="team">
+            <div class="row2">
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FIMG_5321%20-%20Carly%20Schinhofen.jpg?v=1605397402804"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Carly Schinhofen
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a href="carlyschinhofen@gmail.com" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FIMG-4604%20(1)%20-%20Krystal%20Salmeron.jpg?v=1605397432809"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Krystal Salmeron
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a
+                  href="https://www.instagram.com/krysemmy/?hl=en"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/krystal-salmeron/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="k.e.m.salmeron@gmail.com" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FIMG_6607%20-%20Sanchitha%20Dinesh.jpg?v=1605397470428"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Sanchitha Dinesh
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a
+                  href="https://www.instagram.com/sanchithad24/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a href="https://www.facebook.com/sanchithad24/" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/in/sanchitha-dinesh/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="sanchunila@gmail.com" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+
+              <div class="column2">
+                <img
+                  class="circle"
+                  src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2F702276BE-827A-4825-83AC-E1BAA8FFCE9C%20-%20Rika%20_)%20Cropped.jpg?v=1605397506117"
+                />
+                <h2
+                  class="teamnames"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Sagarika Rao Valluri
+                </h2>
+                <p class="teamdescriptions">Education | Curriculum Developer</p>
+
+                <a
+                  href="https://www.instagram.com/thatspacegirl__/"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+                /></a>
+
+                <a
+                  href="https://www.linkedin.com/mwlite/in/rika-sagarika-valluri-0a444215a"
+                  target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+                /></a>
+
+                <a href="sagarikavalluri1@gmail.com" target="_blank"
+                  ><img
+                    class="teamsocials"
+                    src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </center>
+        <br />
+      </section>
+
+      <!-- FOOTER -->
+      <center>
+        <footer class="page-footer">
+          <br />
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5
+                  class="white-text"
+                  style="
+                    text-align: center;
+                    font-family: 'Nanum Gothic', sans-serif;
+                  "
+                >
+                  Social Media
+                </h5>
+                <ul>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.instagram.com/superpositionfc/?hl=en"
+                      target="_blank"
+                      style="text-align: center"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://twitter.com/superpositionfc"
+                      target="_blank"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.linkedin.com/company/superpositionfc/about/"
+                      target="_blank"
+                      >Linkedln</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="mailto: info@superposition.tech"
+                      target="_blank"
+                      >Email</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.youtube.com/channel/UC_IgoYBxDTQYHCrMHrH-bIQ"
+                      target="_blank"
+                      style="
+                        text-align: center;
+                        font-family: 'Nanum Gothic', sans-serif;
+                      "
+                      >YouTube</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://medium.com/superposition-iv"
+                      target="_blank"
+                      style="
+                        text-align: center;
+                        font-family: 'Nanum Gothic', sans-serif;
+                      "
+                      >Medium</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://linktr.ee/superpositionfc"
+                      target="_blank"
+                      style="
+                        text-align: center;
+                        font-family: 'Nanum Gothic', sans-serif;
+                      "
+                      >Linktree</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col l6 s12">
+                <a href="#top"
+                  ><center>
+                    <img
+                      id="logofooter"
+                      src="https://cdn.glitch.global/531a4046-e239-4378-b2aa-51d9953afd98/SPLOGO.png?v=1649567750718"
+                    /></center
+                ></a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5
+                  class="white-text"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Past Sites
+                </h5>
+                <ul>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2019</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2018</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href=" https://superpositionfc.github.io/website/"
+                      target="_blank"
+                      >2017</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="footer-copyright">
+            <div class="container5">
+              Copyright © 2019-2022 Superposition. All rights reserved.
+            </div>
+          </div>
+        </footer>
+      </center>
+
+      <style>
+        body {
+          background-color: #fff;
+        }
+      </style>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="js/creative.min.js"></script>
+      <script src="js/script.js"></script>
+    </div>
+  </body>
+</html>

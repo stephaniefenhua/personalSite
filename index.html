@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://cdn.glitch.com/72a03f1d-ebef-49e9-95f5-7b6c184d2530%2FFavicon.png?v=1615359827413"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Stephanie Su" />
-    <meta
-      name="description"
-      content="I'm Stephanie, a Computer Science major and Regents' Scholar at UC Berkeley
-              interested in tech, business and social impact. I'm pursuing careers
-              in Product Management and Software Engineering."
+    <!--     <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    /> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Superposition</title>
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
     />
-    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet"
+      type="text/css"
+    />
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/old.css" />
+    <link href="css/creative.min.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FYO.png?v=1569987120655"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
     />
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- W3 Framework-->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <!-- Font Awesome -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script
-      src="https://kit.fontawesome.com/6e02325f14.js"
-      crossorigin="anonymous"
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
     ></script>
+    <script src="script.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-ETYZ6E9VG1"
+      src="https://www.googletagmanager.com/gtag/js?id=G-KLWJYQKRN8"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -57,677 +68,582 @@
       }
       gtag("js", new Date());
 
-      gtag("config", "G-ETYZ6E9VG1");
+      gtag("config", "G-KLWJYQKRN8");
     </script>
-
-    <title>Stephanie Su</title>
-
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-
-    <!-- NAV BAR -->
-    <nav
-      class="navbar navbar-expand-sm fixed-top navbar-light"
-      style="background-color: #ffffff; opacity: 0.95"
-      id="mainNav"
-    >
-      <a class="navbar-brand" href="#top"
-        ><img
-          src="https://cdn.glitch.com/72a03f1d-ebef-49e9-95f5-7b6c184d2530%2FFavicon.png?v=1615359827413"
-          style="height: 1.5em; width: 1.5em; margin: 5px"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#aboutme">About Me</a>
-          <a class="nav-item nav-link" href="#experience">Experience</a>
-          <a class="nav-item nav-link" href="#speaking">Speaking</a>
-          <!-- <a class="nav-item nav-link" href="#interviews">Interviews</a> -->
-          <a class="nav-item nav-link" href="#linkedin-content"
-            >LinkedIn Content</a
-          >
-          <a class="nav-item nav-link" href="#design">Design</a>
-          <a class="nav-item nav-link" href="#contactme">Contact Me</a>
-        </div>
-      </div>
-    </nav>
-
-    <!--
-      <nav class="navbar navbar-expand-sm fixed-top navbar-light">
-          <div class="container">
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="#">Stephanie Su</a>
-              <div class="collapse navbar-collapse" id="navbar1">
-                  <ul>
-                    <li class="navbar-list"><a href="#aboutme">About Me</a></li>
-                    <li class="navbar-list"><a href="#experience">Experience</a></li>
-                    <li class="navbar-list"><a href="#speaking">Speaking</a></li>
-                    <li class="navbar-list"><a href="#design">Design</a></li>
-                  </ul>
-              </div>
-          </div>
-      </nav>  
-      -->
   </head>
-  <body>
-    <section id="page-container" style="margin-bottom: 0">
-      <div id="content-wrap">
-        <center>
-          <section class="visible" id="intro" style="opacity: 1">
-            <div class="container" style="margin-top: 7rem; opacity: 1">
-              <div class="row">
-                <div class="col-12 col-lg-4">
-                  <a name="aboutme"></a>
-                  <img
-                    class="pfp"
-                    src="https://cdn.glitch.me/72a03f1d-ebef-49e9-95f5-7b6c184d2530%2FStephSuHeadshot-Sac.jpg?v=1638697954669"
-                  />
-                  <h1
-                    class="animate__animated animate__fadeInDown"
-                    style="margin: 5px"
-                  >
-                    Stephanie Su
-                  </h1>
-                  <b class="emphasis"
-                    ><p class="location-tag" id="sf-bay">
-                      <i
-                        class="fas fa-map-marker-alt location-icon"
-                        id="sf-bay-icon"
-                      ></i
-                      >SF Bay Area
-                    </p></b
-                  >
-                  <b class="emphasis"
-                    ><p class="location-tag" id="berkeley">
-                      <i
-                        class="fas fa-map-marker-alt location-icon"
-                        id="berkeley-icon"
-                      ></i
-                      >UC Berkeley
-                    </p></b
-                  >
 
-                  <div class="social-icons">
-                    <a
-                      href="https://www.linkedin.com/in/stephanie-su-527437169/"
-                      target="_blank"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                    <a
-                      href="https://github.com/stephaniefenhua/resume/blob/main/StephanieSu-Resume.pdf"
-                      target="_blank"
-                      ><i class="fas fa-file"></i
-                    ></a>
-                    <a href="mailto:stephsu@berkeley.edu">
-                      <i style="font-size: 2rem" class="fas fa-envelope"></i
-                    ></a>
-                  </div>
-                </div>
+  <body onload="myFunction1000()" id="page-top">
+    <div id="loader">
+      <center>
+        <img
+          src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FYO.png?v=1578731939570"
+          class="rotate"
+          width="150"
+          height="150"
+        />
+      </center>
+    </div>
 
-                <div class="col-12 col-lg-8 my-auto" id="about-bio">
-                  <h3 align="left">Hi there! &#128075;</h3>
-                  <p class="bio">
-                    I'm Stephanie, a Computer Science student and
-                    <a
-                      href="https://financialaid.berkeley.edu/types-of-aid-at-berkeley/scholarships/regents-and-chancellors-scholarship/"
-                      style="color: #003262; font-weight: bold"
-                      >Regents' Scholar</a
-                    >
-                    at UC Berkeley. My personal mission is to empower others to
-                    achieve their goals through my work and experiences.
-                  </p>
-                  <h3 align="left">Currently, I'm</h3>
-                  <p align="left">
-                    • leading customer discovery at
-                    <a
-                      href="https://www.launchpartyvc.com/"
-                      style="color: #4c1ff4; font-weight: bold"
-                      >Launchparty</a
-                    >
-                    as a Product Management Intern<br />
-                    • incoming at Meta as a Software Engineer Intern<br />
-                    • uplifting women in STEM at
-                    <a
-                      href="http://superposition.tech"
-                      target="_blank"
-                      class="sp-links"
-                      >Superposition</a
-                    >
-                    through international events and chapters<br />
-                    • creating
-                    <a
-                      href="http://linkedin.com/in/steph.su"
-                      style="color: var(--blue4); font-weight: bold"
-                      >LinkedIn</a
-                    >
-                    content about student life and internships for 16K
-                    followers<br />
-                  </p>
-                  <h3 align="left">Previously, I</h3>
-                  <p align="left">
-                    • conducted research and data analysis for Apple and TikTok
-                    with
-                    <a
-                      href="http://www.voyagerconsulting.org/"
-                      style="color: #177b57; font-weight: bold"
-                      >Voyager Consulting</a
-                    ><br />
-                    • researched and designed new products as a Product Intern
-                    at
-                    <a
-                      href="http://bit.ly/fv_steph"
-                      style="font-weight: bold; color: #01a0b6"
-                      >Fiveable</a
-                    ><br />
-                    • spoke at 50+ events about coding, student leadership, and
-                    career development <br />
-                    • advised 114 student-led social impact organizations as
-                    Founder of
-                    <a
-                      href="http://instagram.com/adastrayouth"
-                      style="font-weight: bold; color: var(--purple3)"
-                      >Ad Astra Youth</a
-                    >
-                    <br />
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </center>
-
-        <section id="new-experience" align="center">
-          <div class="container">
-            <h1>Experience</h1>
-            <a name="experience"></a>
-            <b class="emphasis"
-              ><p class="location-tag" id="resume">
-                <i
-                  class="fa-solid fa-arrow-up-right-from-square resume-icon"
-                  id="resume-icon"
-                ></i>
+    <div class="animate-bottom" id="everything" style="display: none">
+      <a name="top"></a>
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+        id="mainNav"
+      >
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="/"><img src="https://cdn.glitch.global/531a4046-e239-4378-b2aa-51d9953afd98/SPLOGO.png?v=1649567750718" height="45" class="d-inline-block align-top" style=""></a>
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+              <li class="nav-item dropdown">
                 <a
-                  href="http://bit.ly/steph_resume"
-                  class="sp-links"
-                  target="_blank"
-                  >Resume</a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
                 >
-              </p></b
-            >
-            <div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="experience-card">
-                  <div>
-                    <a href="http://superposition.tech" target="_blank">
-                      <img
-                        src="https://cdn.glitch.com/72a03f1d-ebef-49e9-95f5-7b6c184d2530%2F_IMG_7785-4.jpg?v=1615333451980"
-                        class="experience-thumbnail"
-                      />
-                    </a>
-                    <h3 class="exp-name" style="color: var(--pink4)">
-                      Superposition
-                    </h3>
-                    <p
-                      align="left"
-                      class="exp-headline"
-                      style="color: var(--pink3)"
-                    >
-                      Lead Director (2019 - present)
-                    </p>
-                    <p align="left">
-                      <a
-                        href="http://superposition.tech"
-                        target="_blank"
-                        class="sp-links"
-                        >Superposition</a
-                      >
-                      aims to bridge the gender gap in STEM through events,
-                      chapters and mentorship. With my leadership, Superposition
-                      expanded from the Bay Area's largest all-women hackathon
-                      to 115+ chapters worldwide.
-                    </p>
-                  </div>
+                  ABOUT
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="story.html">OUR STORY</a>
+                  <a class="dropdown-item" href="team.html">TEAM</a>
+                  <a class="dropdown-item" href="photos.html">PHOTOS</a>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="experience-card">
-                  <div>
-                    <a href="http://voyagerconsulting.org">
-                      <img
-                        src="https://cdn.glitch.global/72a03f1d-ebef-49e9-95f5-7b6c184d2530/IMG_1777.jpg?v=1647988196338"
-                        class="experience-thumbnail"
-                        target="_blank"
-                      />
-                    </a>
-                    <h3 class="exp-name" style="color: var(--green4)">
-                      Voyager Consulting
-                    </h3>
-                    <p
-                      align="left"
-                      class="exp-headline"
-                      style="color: var(--green3)"
-                    >
-                      Senior Consultant (2021 - present)
-                    </p>
-                    <p align="left">
-                      With
-                      <a
-                        href="http://voyagerconsulting.org"
-                        target="_blank"
-                        class="voya-links"
-                        >Voyager Consulting</a
-                      >, I've consulted Apple, TikTok, and Intel by conducting
-                      market research, competitor analysis, and data analysis.
-                    </p>
-                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  PROGRAMS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="chapters.html">CHAPTERS</a>
+                  <a class="dropdown-item" href="hackathon.html">HACKATHON</a>
+                  <!--  <a class="dropdown-item" href="hackathon.html">HACKATHON</a> -->
+                  <a class="dropdown-item" href="conference.html">CONFERENCE</a>
+                  <a class="dropdown-item" href="workshops.html">WORKSHOPS</a>
                 </div>
-              </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  SUPPORT US
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="sponsors.html">SPONSORS</a>
+                  <a class="dropdown-item" href="partners.html">PARTNERS</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- MASTHEAD -->
+      <header class="masthead" id="headerwork">
+        <div class="container h-100">
+          <div
+            class="row h-100 align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-10 align-self-end">
+              <h1 class="text-white">superposition</h1>
             </div>
-            <div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="experience-card">
-                  <div>
-                    <a href="https://www.launchpartyvc.com/" target="_blank">
-                      <img
-                        src="https://cdn.glitch.global/72a03f1d-ebef-49e9-95f5-7b6c184d2530/Screen%20Shot%202022-03-22%20at%204.38.12%20PM.png?v=1647992304021"
-                        class="experience-thumbnail"
-                      />
-                    </a>
-                    <h3 class="exp-name" style="color: var(--purple4)">
-                      Launchparty
-                    </h3>
-                    <p
-                      align="left"
-                      class="exp-headline"
-                      style="color: var(--purple3)"
-                    >
-                      Product Management Intern (2022 - present)
-                    </p>
-                    <p align="left">
-                      As
-                      <a
-                        href="http://launchpartyvc.com"
-                        class="aa-links"
-                        target="_blank"
-                        >Launchparty</a
-                      >'s first PM Intern, I synthesized 30+ interviews with
-                      startup investors and founders, and analyzed 350+ customer
-                      discovery survey responses using Python pandas.
-                    </p>
-                  </div>
-                </div>
+            <div class="col-lg-8 align-self-baseline">
+              <h3
+                class="text-white-75 font-weight-light mb-5"
+                id="locationsub2"
+              >
+                BRIDGING THE GENDER GAP IN STEM
+              </h3>
+              <div class="home-buttons">
+                <button
+                  class="button"
+                  onclick="location.href='chapters.html'"
+                  id="home"
+                >
+                  CHAPTERS
+                </button>
+                <button
+                  class="button"
+                  onclick="location.href='hackathon.html'"
+                  id="home1"
+                >
+                  HACKATHON
+                </button>
+                <button
+                  class="button"
+                  onclick="location.href='https://superposition-9um6135.slack.com/'"
+                  id="home2"
+                >
+                  COMMUNITY
+                </button>
               </div>
-              <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="experience-card">
-                  <div>
-                    <a href="http://fiveable.me">
-                      <img
-                        src="https://cdn.glitch.global/72a03f1d-ebef-49e9-95f5-7b6c184d2530/646dafae-ca46-4bfd-9062-9d4060b61369.image.png?v=1647992734072"
-                        class="experience-thumbnail"
-                        target="_blank"
-                        style="width: 89%; margin: auto"
-                      />
-                    </a>
-                    <h3 class="exp-name" style="color: var(--blue4)">
-                      Fiveable
-                    </h3>
-                    <p
-                      align="left"
-                      class="exp-headline"
-                      style="color: var(--blue3)"
-                    >
-                      Product Intern, Intern to the CEO (2021)
-                    </p>
-                    <p align="left">
-                      <!--
-                        With
-                        <a
-                          href="http://fiveable.me"
-                          target="_blank"
-                          class="voya-links"
-                          >Voyager Consulting</a
-                        > -->
-                      I researched and designed a new
-                      <a
-                        class="fv-links"
-                        href="https://whimsical.com/scholarship-tool-JYHYZzZ6wq6jSjk5XyJhag"
-                        target="_blank"
-                        >scholarship search tool</a
-                      >.
-                    </p>
-                  </div>
+              <!-- <h3 class="text-white-75 font-weight-light mb-5" id="locationsub2" style = "  font-family: 'Nanum Gothic', sans-serif;">
+              Uber HQ | February 29 - March 1, 2020
+            </h3> -->
+              <!--             <br/>
+           <center> <button
+              class="button"
+              onclick="location.href='https://bit.ly/sp4_app'" id="home2"
+            >
+              ATTENDEE
+            </button>
+            <button
+              class="button"
+              onclick="location.href='https://bit.ly/sp4_volunteer'" id="home2"
+            >
+              MENTOR
+            </button>
+             <button
+              class="button"
+              onclick="location.href='https://bit.ly/sp4_partner'" id="home2"
+            >
+              PARTNER
+            </button> -->
+
+              <!--           </center> -->
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!--     COUNTER OF IMPACT -->
+      <center>
+        <section id="#about">
+          <div id="pinkbg">
+            <div class="row4">
+              <center>
+                <div class="column4">
+                  <h2 id="js-number-reached" class="expectitles2">6</h2>
+                  <p class="expectsubtitles2">Annual Hackathons</p>
                 </div>
-              </div>
+                <div class="column4">
+                  <h2 id="js-number-countries" class="expectitles2">117</h2>
+                  <p class="expectsubtitles2">International Chapters</p>
+                </div>
+                <div class="column4">
+                  <h2 id="js-number-chapters" class="expectitles2">110</h2>
+                  <p class="expectsubtitles2">Countries Reached</p>
+                </div>
+              </center>
             </div>
           </div>
         </section>
+      </center>
 
-        <!-- SPEAKING SECTION -->
-        <center>
-          <section id="speaking">
-            <a name="speaking"></a>
-            <h1>Speaking</h1>
+      <!-- ABOUT -->
+      <center>
+        <section id="aboutpading">
+          <div class="container">
+            <div class="row" style="display: block">
+              <div class="col col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <!--<p class="sectionheader" id="about">ABOUT US</p>-->
+                <p align="left" class="sectiontext">
+                  Superposition is an international non-profit bridging the
+                  gender gap in STEM through events, chapters, and mentorship.
+                  Our mission is to
+                  <b class="emphasis">empower women in STEM</b> by creating
+                  learning opportunities and supportive spaces for pursuing
+                  their passions.
+                </p>
 
-            <!-- START: SPEAKING -->
-            <div class="container">
-              <div class="row experience-card">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                  <p align="left">
-                    Since March 2019, I've delivered 50 talks about coding,
-                    student leadership, and career development to 1000
-                    attendees.
-                  </p>
-                  <p align="left">
-                    <b class="emphasis" style="color: var(--green3)"
-                      >Workshops:</b
-                    ><br />
-                    • Intro to Python (x5)
-                    <a
-                      href="http://bit.ly/ss_python"
-                      target="_blank"
-                      style="color: var(--green4); font-weight: bold"
-                      >(Resources)</a
-                    ><br />
-                    • Social Media, Branding and Design (x5)<br />
-                    • Creating Impact Without Being a Founder (x3)
-                    <a
-                      href="https://www.loom.com/share/ab6124663b1344df947444ebd2044653"
-                      target="_blank"
-                      style="color: var(--green4); font-weight: bold"
-                      >(Recording)</a
-                    ><br />
-                    • Personal Branding and Public Speaking (x2)<br />
-                    • LinkedIn and Resume-Building (x2)<br />
-                    • Networking 101<br />
-                    • Organizing Successful Events<br />
-                    • AP Computer Science Review
-                    <a
-                      href="https://docs.google.com/document/d/1o4e6o6rOtmKsKz05JbhLy8FUY1QPZO7cEXeDQaweDDM/edit?usp=sharing"
-                      target="_blank"
-                      style="color: var(--green4); font-weight: bold"
-                      >(Review Doc)</a
-                    >
-                    <br /><br />
-                    <b class="emphasis" style="color: var(--green3)">Talks:</b>
-                    Journey in STEM (x2), Journey in Service (x2), Growing With
-                    Empathy, College Admissions Journey
-                  </p>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                  <p align="left">
-                    <b class="emphasis" style="color: var(--green3)">Events:</b>
-                    Global Spotlight Youth Summit (Keynote), Hydrangea Hacks
-                    (Keynote), TechTogether Seattle, GenZHER Conference, Covid
-                    NineTEEN x LeadHERship Social Entrepreneurship 101
-                    Conference, GenZ Girl Con, MoCoHacks<br /><br />
-                    <b class="emphasis" style="color: var(--green3)"
-                      >Podcasts:</b
-                    >
-                    Crimson Education Top of the Class, 21st Century Visionary,
-                    Today is Her Story, LeadHERship, Amplify Our Advocacy, The
-                    Aspirations Ahead, Blue Hearts, Declassified College<br /><br />
-                    <b class="emphasis" style="color: var(--green3)">Panels:</b>
-                    Stanford AI4ALL Alumni, UC Berkeley ROHP, UCLA
-                    exploretech.la Representation in CS, Leading an All-Women
-                    Hackathon, NCWIT x Nevada CS Education Summit, Fiveable:
-                    Surviving College Applications, BrightHER Future: Starting
-                    an NPO<br /><br />
-                    <i class="fas fa-comments" style="color: var(--green3)"></i
-                    ><a href="#contactme" class="speak-links">Contact me</a>
-                    for any recordings and speaking opportunities!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </center>
-
-        <!-- END: SPEAKING -->
-
-        <!--
-    <center>
-      <section id="interviews">
-        <h1>
-          Interviews
-        </h1>
-        <div class="row">
-          <div class="column">
-         REINVENTED MAGAZINE
-            <a href="https://issuu.com/reinventedmag/docs/reinvented_magazine_issue_no._5/36"><img src="https://static.wixstatic.com/media/0d9039_0addfd3186a84bc8a0cc2de1ba8f0810~mv2.png/v1/fill/w_360,h_124,al_c,q_85,usm_0.66_1.00_0.01/LightPink.webp" class="interviewlogo"></a>            
-          </div>
-      </div>
-      </section>
-    </center> -->
-
-        <center>
-          <section id="linkedincontent">
-            <a name="linkedin-content"></a>
-            <h1>LinkedIn Content</h1>
-            <div class="container">
-              <div class="row experience-card">
-                <p style="text-align: left">
-                  On
-                  <a
-                    href="https://www.linkedin.com/in/steph-su/"
-                    style="font-weight: bold; color: var(--blue4)"
-                    >LinkedIn</a
-                  >, I create content about student life, career development,
-                  and personal growth, and I've grown my audience to 16K
-                  followers and 4 million views. I'm open to influencer
-                  partnerships, and have worked with companies like
-                  <a
-                    href="https://hirectapp.com/"
-                    style="font-weight: bold; color: #000000"
-                    >Hirect</a
-                  >,
-                  <a
-                    href="http://bit.ly/fv_steph"
-                    style="font-weight: bold; color: #01a0b6"
-                    >Fiveable</a
+                <p align="left" class="sectiontext">
+                  Since 2016, we've held the
+                  <b class="emphasis"
+                    >Bay Area's largest gender-focused hackathon</b
                   >
-                  and
-                  <a
-                    href="https://bit.ly/3eFnx5R%20"
-                    style="font-weight: bold; color: var(--green4)"
-                    >Forage</a
-                  >.
+                  in partnership with companies like
+                  <b class="emphasis">VSCO</b> and <b class="emphasis">Uber</b>.
+                  In March 2020, we expanded beyond a 24-hour hackathon to
+                  provide year-round opportunities for our community, such as
+                  our Uber mentorship programs and chapter
+                  program.
                 </p>
+                <p align="left" class="sectiontext">
+                  Now, Superposition is a global organization with
+                  <b class="emphasis">117 chapters</b> in 25 countries. Get
+                  involved with Superposition by joining our
+                  <b class="emphasis"
+                    ><a href="http://bit.ly/sp_slack">Slack</a></b
+                  >
+                  or
+                  <b class="emphasis"
+                    ><a href="http://bit.ly/sp_chapter"
+                      >starting a chapter</a
+                    ></b
+                  >!
+                </p>
+                <br />
+                <left
+                  ><button
+                    align="left"
+                    class="button"
+                    id="buttonmobile"
+                    onclick="location.href='http://linktr.ee/superpositionfc'"
+                  >
+                    JOIN SUPERPOSITION
+                  </button></left
+                >
               </div>
-
-              <iframe
-                class="linkedinpost"
-                src="https://www.linkedin.com/embed/feed/update/urn:li:share:6900250114166812672"
-                height="400"
-                frameborder="0"
-                allowfullscreen=""
-                title="Embedded post"
-                width="33%"
-              ></iframe>
-              <iframe
-                class="linkedinpost"
-                src="https://www.linkedin.com/embed/feed/update/urn:li:share:6812095616546668544"
-                height="400"
-                frameborder="0"
-                allowfullscreen=""
-                title="Embedded post"
-                width="33%"
-              ></iframe>
-              <iframe
-                class="linkedinpost"
-                src="https://www.linkedin.com/embed/feed/update/urn:li:share:6812930586848694272"
-                height="400"
-                frameborder="0"
-                allowfullscreen=""
-                title="Embedded post"
-                width="33%"
-              ></iframe>
-            </div>
-          </section>
-        </center>
-
-        <center>
-          <section id="design">
-            <a name="design"></a>
-            <h1>Design</h1>
-            <div class="container experience-card">
-              <p>
-                I'm a self-taught graphic designer with 2 years of experience.
-                I'm proficient with Canva, and have basic experience with Adobe
-                Photoshop and Figma.
-              </p>
               <div>
-                <h3 class="portfolio">Superposition Instagram</h3>
-                <p align="center">
-                  My primary graphic design work is featured on
-                  <span
-                    ><a
-                      href="http://instagram.com/superpositionfc"
-                      target="_blank"
-                      style="color: var(--blue4); font-weight: bold"
-                      ><i
-                        class="fab fa-instagram-square"
-                        style="color: var(--blue4)"
-                      ></i
-                      >@superpositionfc</a
-                    ></span
-                  >. I designed Superposition's brand identity and most of its
-                  posts.
-                </p>
-                <!-- SnapWidget -->
-                <!-- SIX COLUMN INSTAGRAM 
-        <iframe src="https://snapwidget.com/embed/920921" class="snapwidget-widget threecol-ig" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; height:200px;"></iframe> -->
-
-                <!-- SnapWidget -->
-                <!-- THREE COLUMN INSTAGRAM -->
-                <!-- SnapWidget -->
-                <iframe
-                  src="https://snapwidget.com/embed/921387"
-                  class="snapwidget-widget sixcol-ig"
-                  allowtransparency="true"
-                  frameborder="0"
-                  scrolling="yes"
-                  style="
-                    border: none;
-                    overflow: hidden;
-                    width: 80%;
-                    height: 300px;
-                  "
-                ></iframe>
-                <!-- SnapWidget -->
-              </div>
-            </div>
-            <div></div>
-            <!--
-            <div
-              style="
-                position: relative;
-                width: 70%;
-                height: auto;
-                padding-top: 39.45%;
-                padding-bottom: 48px;
-                box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
-                margin-top: 1.6em;
-                margin-bottom: 0.9em;
-                overflow: hidden;
-                border-radius: 8px;
-                will-change: transform;
-              "
-            >
-              <iframe
-                style="
-                  position: absolute;
-                  width: 100%;
-                  height: 100%;
-                  top: 0;
-                  left: 0;
-                  border: none;
-                  padding: 0;
-                  margin: 0;
-                "
-                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAD4zjqYcrc&#x2F;view?embed"
-              >
-              </iframe>
-            </div> -->
-          </section>
-        </center>
-
-        <!-- CONTACT SECTION -->
-        <center>
-          <section id="contactme">
-            <a name="contactme"></a>
-            <h1>Contact Me</h1>
-            <!--<div class="container experience-card"> -->
-
-            <p>
-              Email me at
-              <a
-                href="mailto:stephsu@berkeley.edu"
-                style="color: var(--pink4); font-weight: bold"
-                ><i
-                  style="size: 1rem; color: var(--pink4)"
-                  class="fas fa-envelope"
-                ></i
-                >stephsu@berkeley.edu</a
-              >
-              or complete the form below!
-            </p>
-            <iframe
-              id="googleform"
-              src="https://docs.google.com/forms/d/e/1FAIpQLSe4P_iogzAhHx0DFUnrCRJv4WmFycNTtwg_9dwwb8RlxT7EwQ/viewform?embedded=true"
-              width="70%"
-              height="400"
-              frameborder="1"
-              marginheight="0"
-              marginwidth="0"
-              >Loading…</iframe
-            >
-            <!-- </div> -->
-          </section>
-        </center>
-
-        <section>
-          <div id="footer" align="center">
-            <div class="container">
-              <div class="row">
-                <a href="#top"
-                  ><img
-                    id="logofooter"
-                    src="https://cdn.glitch.com/72a03f1d-ebef-49e9-95f5-7b6c184d2530%2FFavicon.png?v=1615359827413"
-                    width="10%"
-                /></a>
-              </div>
-              <div class="row">
-                <div class="container">
-                  <p text-align="center">
-                    © 2022 Stephanie Su. Design inspired by
-                    <a href="https://catherinehyeo.com/">Catherine Yeo</a>.
-                  </p>
+                <div class="col col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <img
+                    class="panel-img"
+                    src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FLRG_ALP01323.jpg?v=1626911949901"
+                    style="vertical-align: center"
+                  />
+                  <!--
+                  <img
+                    class="panel-img"
+                    src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FIMG_1760.jpg?v=1614883374621"
+                  /> -->
                 </div>
               </div>
             </div>
           </div>
         </section>
+      </center>
 
-        <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix 
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script> -->
-      </div>
+      <!-- Masthead -->
+      <!-- 
+    <section>
+      <header class="masthead2">
+        <div class="container h-100">
+          <div
+            class="row h-100 align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-10 align-self-end">
+              <h1 class="text-white">
+                Female empowerment
+              </h1>
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+              <h3 class="text-white-75 font-weight-light mb-5" style = "  font-family: 'Nanum Gothic', sans-serif;">
+                does not stop after 24 hours, and neither should Superposition. In addition to hosting an annual hackathon,
+                we're expanding our initiative to provide year-round opportunities to our community.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </header>
     </section>
+    
+     <section>
+      <center>
+        <p class="sectionheader">Our Team</p>
+        <div id="begin" class="team">
+          <div class="row2">
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FPFP.jpg?v=1604786608622"
+              />
+              <h2 class="teamnames" style = "  font-family: 'Nanum Gothic', sans-serif;">Stephanie Su</h2>
+              <p class="teamdescriptions">Lead Director</p>
+              <a href="https://www.instagram.com/steph.su/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a
+                href="https://www.facebook.com/stephanie.su.9634"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto: stephanie@superposition.tech" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/stephanie-su-527437169/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(14).png?v=1571125705882"
+              />
+              <h2 class="teamnames" style = "  font-family: 'Nanum Gothic', sans-serif;">Miha Bhaskaran</h2>
+              <p class="teamdescriptions">Director of Mentorship</p>
+              <a href="https://www.facebook.com/athmihab" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto:athmiha@superposition.tech" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(11).png?v=1571122618755"
+              />
+              <h2 class="teamnames" style = "  font-family: 'Nanum Gothic', sans-serif;">Helena Lowe</h2>
+              <p class="teamdescriptions">Director of Chapters</p>
+              <a href="https://www.instagram.com/helenarlowe/" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a
+                href="https://www.facebook.com/helena.lowe.7739"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Fimage%20(36).png?v=1570251787028"
+              /></a>
+              <a href="mailto:helenalowe03@gmail.com" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/helena-lowe-a7197b182/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Flinkedinicon.png?v=1574202928219"
+              /></a>
+            </div>
+            <div class="column2">
+              <img
+                class="circle"
+                src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FGIRLS%20WHO%20CODE%20(7).png?v=1571121304034"
+              />
+              <h2 class="teamnames" style = "  font-family: 'Nanum Gothic', sans-serif;">Shamita Gurusu</h2>
+              <p class="teamdescriptions">Director of Operations</p>
+              <a
+                href="https://www.instagram.com/thedisney_darling/"
+                target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FIGLOGO.png?v=1574203607644"
+              /></a>
+              <a href="shamita@superposition.tech" target="_blank"
+                ><img
+                  class="teamsocials"
+                  src="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2Femailicon.png?v=1574202803620"
+              /></a>
+            </div>
+
+          </div>
+        </div>
+        <br/>
+        <br/>
+
+      </center>
+    </section>-->
+
+      <!-- FOOTER -->
+      <section>
+        <center>
+          <footer class="page-footer">
+            <br />
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5
+                    class="white-text"
+                    style="
+                      text-align: center;
+                      font-family: 'Nanum Gothic', sans-serif;
+                    "
+                  >
+                    Social Media
+                  </h5>
+                  <ul>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href="https://www.instagram.com/superpositionfc/?hl=en"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >Instagram</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href="https://twitter.com/superpositionfc"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >Twitter</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href="https://www.linkedin.com/company/superpositionfc/about/"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >Linkedln</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href="mailto: info@superposition.tech"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >Email</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href="https://www.youtube.com/channel/UC_IgoYBxDTQYHCrMHrH-bIQ"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >YouTube</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href="https://medium.com/superposition-iv"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >Medium</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href="https://linktr.ee/superpositionfc"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >Linktree</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col l6 s12">
+                  <a href="#top"
+                    ><center>
+                      <img
+                        id="logofooter"
+                        src="https://cdn.glitch.global/531a4046-e239-4378-b2aa-51d9953afd98/SPLOGO.png?v=1649567750718"
+                      /></center
+                  ></a>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5
+                    class="white-text"
+                    style="font-family: 'Nanum Gothic', sans-serif"
+                  >
+                    Past Sites
+                  </h5>
+                  <ul>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href="https://superpositionfc.github.io/website3.0/"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >2019</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href="https://superpositionfc.github.io/website2.0/"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >2018</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="grey-text text-lighten-3"
+                        href=" https://superpositionfc.github.io/website/"
+                        target="_blank"
+                        style="
+                          text-align: center;
+                          font-family: 'Nanum Gothic', sans-serif;
+                        "
+                        >2017</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="footer-copyright">
+              <div class="container5">
+                Copyright © 2019-2022 Superposition. All rights reserved.
+              </div>
+            </div>
+          </footer>
+        </center>
+      </section>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="js/creative.min.js"></script>
+      <script src="js/script.js"></script>
+
+      <script src="jquery.js"></script>
+      <script src="fadein.js"></script>
+    </div>
   </body>
 </html>

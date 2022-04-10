@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Superposition</title>
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet"
+      type="text/css"
+    />
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/old.css" />
+    <link href="css/creative.min.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FYO.png?v=1569987120655"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body onload="myFunction1000()" id="page-top">
+    <div id="loader">
+      <center>
+        <img
+          src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FYO.png?v=1578731939570"
+          class="rotate"
+          width="150"
+          height="150"
+        />
+      </center>
+    </div>
+
+    <div class="animate-bottom" id="everything" style="display:none; ">
+      <a name="top"></a>
+            <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+        id="mainNav"
+      >
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="/">SUPERPOSITION</a>
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  ABOUT
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="story.html">OUR STORY</a>
+                  <a class="dropdown-item" href="team.html">TEAM</a>
+                  <a class="dropdown-item" href="photos.html">PHOTOS</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  PROGRAMS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="chapters.html">CHAPTERS</a>
+                  <a class="dropdown-item" href="hackathon.html">HACKATHON</a>
+                  <!--  <a class="dropdown-item" href="hackathon.html">HACKATHON</a> -->
+                  <a class="dropdown-item" href="conference.html">CONFERENCE</a>
+                  <a class="dropdown-item" href="workshops.html">WORKSHOPS</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  SUPPORT US
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="sponsors.html">SPONSORS</a>
+                  <a class="dropdown-item" href="partners.html">PARTNERS</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- MASTHEAD -->
+      <header class="masthead10" id="headerwork">
+        <div class="container h-100">
+          <div
+            class="row h-100 align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-10 align-self-end">
+              <h1 class="text-lowercase text-white">
+                partner with us
+              </h1>
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+              <h3 class="text-white-75 font-weight-light mb-5">
+                SUPPORT OUR COMMUNITY
+              </h3>
+              <!--             <button
+              class="button"
+              onclick="location.href='http://www.google.com'"
+            >
+              ATTENDEE
+            </button>
+            <button
+              class="button"
+              onclick="location.href='http://www.google.com'"
+            >
+              MENTOR
+            </button>
+            <button
+              class="button"
+              onclick="location.href='http://www.google.com'"
+            >
+              JUDGE
+            </button>
+            <h3 class="text-white-75 font-weight-light mb-5">
+              Bay Area | February 2020
+            </h3> -->
+              <!--             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+              >ATTENDEE</a
+            >
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+              >MENTOR</a
+            >
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+              >JUDGE</a
+            > -->
+            </div>
+          </div>
+        </div>
+      </header>
+      <br />
+      <br />
+
+      <!-- COMMUNITY PARTNERS -->
+      <section id="partners">
+        <center>
+          <center><p class="sectionheader">COMMUNITY PARTNERS</p></center>
+          <div class="sponsors">
+            <center>
+              <div class="row2">
+                <div class="column2">
+                  <a href="http://bit.ly/ChR2k20"
+                    ><img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Fchallengerocket_logo%20-%20Karolina%20Tu%C5%82acz.png?v=1579751870171"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a href="https://www.hackher413.com">
+                    <img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F051BE239-62C7-4974-AB65-8CBF7A0ABE16%20-%20Disha%20Srivastava.png?v=1579751877063"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a href="http://smhacks.com ">
+                    <img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5D%20-%20Jason%20Li.png?v=1579751893670"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a href="https://SRChacks.com "
+                    ><img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FborderCraneWithStacked.png?v=1580884610391"
+                  /></a>
+                </div>
+              </div>
+            </center>
+
+            <center>
+              <div class="row2">
+                <div class="column2">
+                  <a href="https://www.calhacks.io "
+                    ><img
+                      class="sponsorsimages"
+                      height="200vw"
+                      width="200vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FCal%20Hacks%20Logos%20Clean-Small%20Text%20-%20Alex%20Lu.png?v=1579751908641"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a href="https://www.allgirlithm.org/"
+                    ><img
+                      class="sponsorsimages"
+                      height="20vw"
+                      width="20vw"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FAllgirlithm.png?v=1582171044256"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a href="http://lancerhacks.com  "
+                    ><img
+                      class="sponsorsimages"
+                      height="200vw"
+                      width="200vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FLancerHacks_glyph_new%20-%20Hello%20Lancerhacks.png?v=1579751935755"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a href="https://www.digitizehackathon.tech/ "
+                    ><img
+                      class="sponsorsimages"
+                      height="200vw"
+                      width="200vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FLogo_transparent%20-%20Emily%20Chen.png?v=1579751951038"
+                  /></a>
+                </div>
+              </div>
+            </center>
+
+            <center>
+              <div class="row2">
+                <div class="column2">
+                  <a href="https://www.losaltoshacks.com/ ">
+                    <img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FLAH%20V%20logo.png?v=1582171037048"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a href="https://www.hackthefog.com/ "
+                    ><img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Flogo%20-%20Rafael%20Cenzano.png?v=1579751940429"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a href="https://2020.menlohacks.com/ ">
+                    <img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FMenloHacksNewLogo%20-%20%D0%A1%D0%BE%D0%BD%D1%8F%20%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D0%B5%D0%B2%D0%B0.png?v=1579751956369"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a href="https://cryptohacks.tech  ">
+                    <img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Foriginal%20-%20Tri-Valley%20Crypto%20Hacks.png?v=1579751961302"
+                  /></a>
+                </div>
+              </div>
+            </center>
+
+            <div class="row2">
+              <div class="column2">
+                <a href="Https://generationshe.co  "
+                  ><img
+                    class="sponsorsimages"
+                    height="175vw"
+                    width="175vw"
+                    id="biglogo"
+                    src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FGenSheTransparent%20-%20Generation%20She.png?v=1579751926855"
+                /></a>
+              </div>
+              <div class="column2">
+                <a href="https://hopperhacks.com  "
+                  ><img
+                    class="sponsorsimages"
+                    height="175vw"
+                    width="175vw"
+                    id="biglogo"
+                    src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Fimageedit_27_7961293269.png?v=1579752524278"
+                /></a>
+              </div>
+              <div class="column2">
+                <a href="https://www.womxnhacks.com/ "
+                  ><img
+                    class="sponsorsimages"
+                    height="200vw"
+                    width="200vw"
+                    id="biglogo"
+                    src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2FSTICKERS-03%20-%20Womxn%20Hacks.png?v=1579751977914"
+                /></a>
+              </div>
+              <div class="column2">
+                <a href="https://pearlhacks.com/ "
+                  ><img
+                    height="1vw"
+                    width="1vw"
+                    id="biglogo"
+                    class="sponsorsimages"
+                    src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2F%5BADD%5D%20Pearl%20Hacks.png?v=1580857011413"
+                /></a>
+              </div>
+            </div>
+
+            <center>
+              <div class="row2">
+                <div class="column2">
+                  <a href="http://www.rosehack.com "
+                    ><img
+                      class="sponsorsimages"
+                      height="200vw"
+                      width="200vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/f92664f8-7445-444e-8a68-1fa484daef7d%2Frose%20hack%20email%20asset-01%20-%20Crystal%20Tong.png?v=1579751967105"
+                  /></a>
+                </div>
+              </div>
+            </center>
+          </div>
+        </center>
+      </section>
+
+      <center>
+        <footer class="page-footer">
+          <br />
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text" style="text-align:center;font-family:'Nanum Gothic', sans-serif;">
+                  Social Media
+                </h5>
+                <ul>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.instagram.com/superpositionfc/?hl=en"
+                      target="_blank"
+                      style="text-align:center;"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://twitter.com/superpositionfc"
+                      target="_blank"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.linkedin.com/company/superpositionfc/about/"
+                      target="_blank"
+                      >Linkedln</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="mailto: info@superposition.tech"
+                      target="_blank"
+                      >Email</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.youtube.com/channel/UC_IgoYBxDTQYHCrMHrH-bIQ"
+                      target="_blank"
+                      style="text-align:center; font-family: 'Nanum Gothic', sans-serif;"
+                      >YouTube</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://medium.com/superposition-iv"
+                      target="_blank"
+                      style="text-align:center; font-family: 'Nanum Gothic', sans-serif;"
+                      >Medium</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://linktr.ee/superpositionfc"
+                      target="_blank"
+                      style="text-align:center; font-family: 'Nanum Gothic', sans-serif;"
+                      >Linktree</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col l6 s12">
+                <a href="#top"
+                  ><center>
+                    <img
+                      id="logofooter"
+                      src="https://cdn.glitch.global/531a4046-e239-4378-b2aa-51d9953afd98/SPLOGO.png?v=1649567750718"
+                    /></center
+                ></a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5
+                    class="white-text"
+                    style="  font-family: 'Nanum Gothic', sans-serif;"
+                  >
+                    Past Sites
+                  </h5>
+                <ul>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2019</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2018</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href=" https://superpositionfc.github.io/website/"
+                      target="_blank"
+                      >2017</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="footer-copyright">
+            <div class="container5">
+              Copyright © 2019-2022 Superposition. All rights reserved.
+            </div>
+          </div>
+        </footer>
+      </center>
+
+      <style>
+        body {
+          background-color: #fff;
+        }
+      </style>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="js/creative.min.js"></script>
+      <script src="js/script.js"></script>
+    </div>
+  </body>
+</html>

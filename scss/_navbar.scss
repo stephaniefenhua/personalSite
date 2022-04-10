@@ -1,0 +1,123 @@
+html {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+// Base styling for the navbar
+#mainNav {
+  box-shadow: none;
+  background-color: $white;
+  transition: background-color transparent;
+  .navbar-brand {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: $font-weight-bold;
+    color: #FF8AB5; 
+  }
+  .navbar-nav {
+    .nav-item {
+      display: flex;
+      align-items: center;
+      .nav-link, .dropdown-item {
+        color: #F794B8;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-weight: $font-weight-bold;
+        font-size: 0.9rem;
+        padding: 0.75rem 0;
+        &.button-cta {
+          font-family: "Nanum Gothic";
+          padding: 0.75em;
+          padding-right: 0.75em !important;
+          background-color:#b5bcff !important;
+          box-shadow: 0.1em 0.1em darken(#b5bcff, 5%);
+          color: white !important;
+          border-radius: 5px;
+          opacity: 0.9 !important;
+          transition: 0.2s ease;
+          margin: 0;
+          &:hover, &.cta-active {
+            transform: translate(0.1em, 0.1em);
+            box-shadow: 0 0 darken(#b5bcff, 10%), 
+              0.1em 0.1em 0.2em inset darken(#b5bcff, 10%);
+            color: white !important;
+          }
+          &.cta-active {
+            cursor: default;
+          }
+        }
+        &:hover,
+        &:active {
+          color: #f794b8 !important;
+        }
+        &.active {
+          color: #f794b8 !important;
+        }
+      }
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    // Base styling for the navbar - screen sizes greater than the large breakpoint
+    box-shadow: $box-shadow;
+    background-color: transparent;
+    .dropdown-menu {
+      background-color: white;
+      box-shadow: $box-shadow;
+      border-radius: 0;
+      border: none;
+      width: 100%;
+    }
+    .navbar-brand {
+      color: fade-out($white, .3);
+      &:hover {
+        color: #FF8AB5;
+      }
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: fade-out($white, .3);
+          padding: 0 1rem;
+          &:hover {
+            color: #FF8AB5;
+          }
+        }
+        .dropdown-item {
+            color: #f794b8;
+            padding: 0 1rem;
+            &:hover {
+              color: #FF8AB5;
+            }
+        }
+        &:last-child {
+          .nav-link {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+    // Navbar styling applied when the page is scrolled
+    &.navbar-scrolled {
+      box-shadow: $box-shadow;
+      background-color: $white;
+      opacity: 0.9;
+      .navbar-brand {
+        color: #F794B8;
+        &:hover {
+          color: #FF8AB5;
+        }
+      }
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: #F794B8;
+            &:hover {
+              color: #FF8AB5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+a {
+  color: #F794B8;
+  background: transparent !important;
+}

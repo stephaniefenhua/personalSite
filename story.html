@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Superposition</title>
+    <link
+      href="vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet"
+      type="text/css"
+    />
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/old.css" />
+    <link href="css/creative.min.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/f23b8598-8c75-4b1a-83f7-6d57abc0ee65%2FYO.png?v=1569987120655"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body onload="myFunction1000()" id="page-top">
+    <div id="loader">
+      <center>
+        <img
+          src="https://cdn.glitch.com/696a54c7-e493-465b-b503-c49262ef99ac%2FYO.png?v=1578731939570"
+          class="rotate"
+          width="150"
+          height="150"
+        />
+      </center>
+    </div>
+
+    <div class="animate-bottom" id="everything" style="display: none">
+      <a name="top"></a>
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+        id="mainNav"
+      >
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="/">SUPERPOSITION</a>
+          <button
+            class="navbar-toggler navbar-toggler-right"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  ABOUT
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="story.html">OUR STORY</a>
+                  <a class="dropdown-item" href="team.html">TEAM</a>
+                  <a class="dropdown-item" href="photos.html">PHOTOS</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  PROGRAMS
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="chapters.html">CHAPTERS</a>
+                  <a class="dropdown-item" href="hackathon.html">HACKATHON</a>
+                  <!--  <a class="dropdown-item" href="hackathon.html">HACKATHON</a> -->
+                  <a class="dropdown-item" href="conference.html">CONFERENCE</a>
+                  <a class="dropdown-item" href="workshops.html">WORKSHOPS</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-toggle="dropdown"
+                >
+                  SUPPORT US
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="sponsors.html">SPONSORS</a>
+                  <a class="dropdown-item" href="partners.html">PARTNERS</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- MASTHEAD -->
+      <header class="masthead14" id="headerwork">
+        <div class="container h-100">
+          <div
+            class="row h-100 align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-10 align-self-end">
+              <h1 class="text-lowercase text-white">our story</h1>
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+              <h3
+                class="text-white-75 font-weight-light mb-5"
+                id="locationsub2"
+              >
+                FROM THE BEGINNING
+              </h3>
+              <!--             <button
+              class="button"
+              onclick="location.href='http://www.google.com'"
+            >
+              ATTENDEE
+            </button>
+            <button
+              class="button"
+              onclick="location.href='http://www.google.com'"
+            >
+              MENTOR
+            </button>
+            <button
+              class="button"
+              onclick="location.href='http://www.google.com'"
+            >
+              JUDGE
+            </button>
+            <h3 class="text-white-75 font-weight-light mb-5">
+              Bay Area | February 2020
+            </h3> -->
+              <!--             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+              >ATTENDEE</a
+            >
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+              >MENTOR</a
+            >
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about"
+              >JUDGE</a
+            > -->
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- CENTER STARTS HERE -->
+      <center>
+        <section id="aboutpading">
+          <div class="w3-row">
+            <div class="w3-container w3-half w3">
+              <p align="left" class="sectiontext">
+                "My seven intensive weeks at Girls Who Code made me feel the
+                importance and strength of an all-girls environment. Every girl
+                deserved to explore computer science; females shouldn’t shield
+                from a field— like I originally did— because of social norms. To
+                help females access opportunities quicker and easier, in 2016, I
+                started Superposition.
+              </p>
+
+              <p align="left" class="sectiontext">
+                I wanted to show students the fundamentals of computer science,
+                provide an empowering environment, and engage them with
+                real-life applications through project-based learning. For our
+                attendees, I aspire for them to not fear failure and instead
+                embrace and learn from the past. During the event, I saw so many
+                smiles as they were so eager to build a project with their
+                newfound skills and it was then where I knew I wanted to help
+                even more students learn computer science."
+              </p>
+
+              <p align="left" class="sectiontext">
+                <b class="emphasis">AREETA WONG</b><br />
+                Founder of Superposition, Lead Director 2016-18
+              </p>
+            </div>
+            <div class="w3-container w3-half">
+              <img
+                id="areeta"
+                src="https://cdn.glitch.com/530d92f6-375b-4a27-915c-2ea2fbce1d73%2FAreetaPFP.jpg?v=1605412654820"
+              />
+            </div>
+          </div>
+        </section>
+      </center>
+
+      <center>
+        <section id="aboutpading">
+          <div class="w3-row">
+            <div class="w3-container w3-half">
+              <img
+                id="stephanie"
+                src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FStephSuHeadshot-Sac.jpg?v=1626296228593"
+              />
+            </div>
+            <div class="w3-container w3-half w3">
+              <p align="left" class="sectiontext">
+                "Attending Superposition II was one of the most empowering
+                experiences I've ever had. Having constantly been a gender
+                minority in my STEM classes, it was encouraging to connect with
+                so many girls who shared my same interest. I felt like I
+                belonged, and I wanted every girl to feel the same way.
+              </p>
+
+              <p align="left" class="sectiontext">
+                I immediately joined the Superposition III organizing team, and
+                was promoted to Superposition IV Lead Director one year later.
+                Several months before Superposition IV, I felt conflicted about
+                how our team's efforts would last for only 24 hours. We aimed to
+                help bridge the gender gap in STEM, but an annual event was not
+                enough. We had to do more.
+              </p>
+
+              <p align="left" class="sectiontext">
+                Starting in March 2020, three Superposition IV organizers and I
+                spearheaded Superposition's expansion from a 24-hour hackathon
+                to an international non-profit. Now, our chapters, mentorship
+                programs, and events are reaching hundreds of thousands of women
+                worldwide. Above all, the most rewarding aspect of leading
+                Superposition is knowing that we're positively impacting others.
+                It truly makes the effort worthwhile."
+              </p>
+
+              <p align="left" class="sectiontext">
+                <b class="emphasis">STEPHANIE SU</b><br />
+                Lead Director of Superposition 2020 - present
+              </p>
+            </div>
+          </div>
+        </section>
+      </center>
+      <!-- 
+    
+    <section>
+      <header class="masthead2">
+        <div class="container h-100">
+          <div
+            class="row h-100 align-items-center justify-content-center text-center"
+          >
+            <div class="col-lg-10 align-self-end">
+              <h1 class="text-white">
+                Female empowerment
+              </h1>
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+              <h3 class="text-white-75 font-weight-light mb-5" style = "  font-family: 'Nanum Gothic', sans-serif;">
+                does not stop after 24 hours, and neither should Superposition. In addition to hosting an annual hackathon,
+                we're expanding our initiative to provide year-round opportunities to our community.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+    -->
+      <!-- PRESS FEATURES -->
+      <section id="partners">
+        <center>
+          <div class="sponsors">
+            <p class="sectionheader" style="text-align: center">
+              PRESS FEATURES
+            </p>
+            <center>
+              <div class="row2">
+                <div class="column2">
+                  <a
+                    href="https://spectrum.ieee.org/view-from-the-valley/computing/software/hackathons-are-usually-dominated-by-men-this-one-was-just-for-girls"
+                    ><img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FIEEESpectrumLogo.png?v=1610008107201"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a
+                    href="https://genzwrites.weebly.com/student-features/bay-area-student-making-tech-more-inclusive-for-women-of-all-backgrounds"
+                  >
+                    <img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo"
+                      src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FUntitled%20design%20(1).png?v=1610008704344"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a
+                    href="https://cvhsolympian.com/feature/2020/12/01/superposition-cv-works-together-to-bridge-gender-gap-in-stem/"
+                  >
+                    <img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo1"
+                      src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FUntitled%20design%20(2).png?v=1610008794909"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a
+                    href="https://www.abnewswire.com/pressreleases/superposition-ii-an-allgirls-and-nonbinary-hackathon-to-be-held-at-the-horizons-school-of-technology-on-march-1718-2018_184029.html"
+                    ><img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FABSNewswire.png?v=1610008110718"
+                  /></a>
+                </div>
+              </div>
+            </center>
+            <center>
+              <div class="row2">
+                <div class="column2">
+                  <a
+                    href="https://pycom.io/who-run-the-world-diverse-workplaces/"
+                    ><img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FpycomLogoGoInventGrey1920.png?v=1610008938288"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a
+                    href="https://www.kqed.org/lowdown/29714/these-high-school-students-are-stepping-up-for-change-in-their-communities"
+                  >
+                    <img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo2"
+                      src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FKQED.png?v=1610008937639"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a
+                    href="https://issuu.com/reinventedmag/docs/reinvented_magazine_issue_no._5"
+                  >
+                    <img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      id="biglogo3"
+                      src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FUntitled%20design%20(3).png?v=1610009086664"
+                  /></a>
+                </div>
+                <div class="column2">
+                  <a
+                    href="https://www.builtinsf.com/2020/01/31/hackathons-in-the-bay-area"
+                    ><img
+                      class="sponsorsimages"
+                      height="175vw"
+                      width="175vw"
+                      src="https://cdn.glitch.com/531a4046-e239-4378-b2aa-51d9953afd98%2FUntitled%20design%20(4).png?v=1610009255340"
+                  /></a>
+                </div>
+              </div>
+            </center>
+          </div>
+        </center>
+      </section>
+
+      <!-- FOOTER -->
+      <center>
+        <footer class="page-footer">
+          <br />
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5
+                  class="white-text"
+                  style="
+                    text-align: center;
+                    font-family: 'Nanum Gothic', sans-serif;
+                  "
+                >
+                  Social Media
+                </h5>
+                <ul>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.instagram.com/superpositionfc/?hl=en"
+                      target="_blank"
+                      style="text-align: center"
+                      >Instagram</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://twitter.com/superpositionfc"
+                      target="_blank"
+                      >Twitter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.linkedin.com/company/superpositionfc/about/"
+                      target="_blank"
+                      >Linkedln</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="mailto: info@superposition.tech"
+                      target="_blank"
+                      >Email</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://www.youtube.com/channel/UC_IgoYBxDTQYHCrMHrH-bIQ"
+                      target="_blank"
+                      style="
+                        text-align: center;
+                        font-family: 'Nanum Gothic', sans-serif;
+                      "
+                      >YouTube</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://medium.com/superposition-iv"
+                      target="_blank"
+                      style="
+                        text-align: center;
+                        font-family: 'Nanum Gothic', sans-serif;
+                      "
+                      >Medium</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://linktr.ee/superpositionfc"
+                      target="_blank"
+                      style="
+                        text-align: center;
+                        font-family: 'Nanum Gothic', sans-serif;
+                      "
+                      >Linktree</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col l6 s12">
+                <a href="#top"
+                  ><center>
+                    <img
+                      id="logofooter"
+                      src="https://cdn.glitch.global/531a4046-e239-4378-b2aa-51d9953afd98/SPLOGO.png?v=1649567750718"
+                    /></center
+                ></a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5
+                  class="white-text"
+                  style="font-family: 'Nanum Gothic', sans-serif"
+                >
+                  Past Sites
+                </h5>
+                <ul>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2019</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href="https://superpositionfc.github.io/website2.0/"
+                      target="_blank"
+                      >2018</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="grey-text text-lighten-3"
+                      href=" https://superpositionfc.github.io/website/"
+                      target="_blank"
+                      >2017</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="footer-copyright">
+            <div class="container5">
+              Copyright © 2019-2022 Superposition. All rights reserved.
+            </div>
+          </div>
+        </footer>
+      </center>
+
+      <style>
+        body {
+          background-color: #fff;
+        }
+      </style>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+      <!-- Custom scripts for this template -->
+      <script src="js/creative.min.js"></script>
+      <script src="js/script.js"></script>
+    </div>
+  </body>
+</html>
