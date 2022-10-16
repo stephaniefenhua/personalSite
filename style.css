@@ -383,6 +383,21 @@ i.fas:hover, i.fab:hover {
   color: var(--blue4);
 }
 
+.resume-button {
+  background-color: var(--pink3);
+  color: white;
+  border: none;
+  font-family: 'Lato';
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.resume-button:hover {
+  color: var(--pink1);
+  background-color: var(--pink4);
+  transition: 0.3s;
+}
 
 .portfolio {
   color: white;
