@@ -15,7 +15,7 @@ different parts of the website in random order, going back in forth with no clea
 Next time, I would create a wireframe or write a design document to organize my ideas and increase efficiency.
 
 ## 2. Develop a solid foundation before aiming higher.
-Even before my website had much content, I tried implemented a navbar using the Boostrap framework, despite
+Even before my website had much content, I tried implemented a navbar using the Bootstrap framework, despite
 having no experience with it. As a result, I spent the next hours reading documents and figuring out what all that code I'd just copy-pasted did.
 I should've focused on finishing the most basic aspects of my website before tackling harder challenges, because while
 developing that foundation, I would have gained more experience with HTML/CSS attributes, documentation and frameworks.
